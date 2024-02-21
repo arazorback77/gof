@@ -1,3 +1,20 @@
+# Work flow
+
+1. create docusauru app with npx create-docusaurus@latest <appname> classic at github folder
+
+2. cd <appname>
+
+3. change to git repository >  git init
+
+4. add repo with  github desktop
+
+5. manage app with github desktop
+
+6. publish to github remote
+
+7. deploy to vercel with github remote
+
+
 # Website
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.

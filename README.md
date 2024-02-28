@@ -4,7 +4,7 @@
 
 2. cd <appname>
 
-3. change to git repository >  git init
+3. change into git repository >  git init
 
 4. add repo with  github desktop
 
@@ -14,6 +14,33 @@
 
 7. deploy to vercel with github remote
 
+
+# 🍋 Features
+1. Markdown
+2. Search
+3. SEO
+4. Versioning
+5. I18n
+6. Custom ...
+7. Deploy
+8. Analytics
+9. Comments
+10. Auth
+11. PWA
+
+# TODO
+
+1. Auth
+
+2. MDX Custom
+
+3. Utterance
+
+4. Search
+
+5. style...
+
+6. 
 
 # Website
 

@@ -5,9 +5,9 @@ sidebar_position: 1
 # Tutorial Intro
 
 ## Work Flow
-1. create docusauru app with npx create-docusaurus@latest <appname> classic at github folder
+1. create docusauru app with npx create-docusaurus@latest **appname** classic at github folder
 
-2. cd <appname>
+2. cd **appname** 
 
 3. change into git repository >  git init
 

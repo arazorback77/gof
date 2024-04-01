@@ -151,10 +151,10 @@ const config = {
             label: "GitHub",
             position: "right",
           },
-          {
-            type: "search",
-            position: "right",
-          },
+          // {
+          //   type: "search",
+          //   position: "right",
+          // },
         ],
       },
       footer: {
@@ -206,20 +206,12 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-      algolia: {
-        appId: "95JXYNK74Y",
-        apiKey: "8122f86c4cacdf2f2ba27842ac2744f5",
-        indexName: "netlify_a17ea549-8c0e-4599-8512-c102af1256b8_main_all",
-        contextualSearch: true,
-
-        // // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        // externalUrlRegex: 'external\\.com|domain\\.com',
-
-        // // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-        // replaceSearchResultPathname: {
-        //   from: '/docs/', // or as RegExp: /\/docs\//
-        //   to: '/',
-      },
+      // algolia: {
+      //   appId: "95JXYNK74Y",
+      //   apiKey: "8122f86c4cacdf2f2ba27842ac2744f5",
+      //   indexName: "netlify_a17ea549-8c0e-4599-8512-c102af1256b8_main_all",
+      //   contextualSearch: true,
+      // },
     }),
 };
 

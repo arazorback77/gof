@@ -58,6 +58,7 @@ export default function Home() {
       </Head> */}
 
       <HomepageHeader />
+      <div id="search"></div>
       <main>
         <HomepageFeatures />
       </main>

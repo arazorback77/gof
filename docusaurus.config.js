@@ -34,28 +34,28 @@ const config = {
     locales: ["en"],
   },
   headTags: [
-    // {
-    //   tagName: "link",
-    //   attributes: {
-    //     rel: "stylesheet",
-    //     href: "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css",
-    //   },
-    // },
-    // {
-    //   tagName: "script",
-    //   attributes: {
-    //     type: "text/javascript",
-    //   },
-    //   innerHTML: `
-    //   algoliasearchNetlify({
-    //     appId: '95JXYNK74Y',
-    //     apiKey: '8122f86c4cacdf2f2ba27842ac2744f5',
-    //     siteId: 'a17ea549-8c0e-4599-8512-c102af1256b8',
-    //     branch: 'main',
-    //     selector: 'div#search',
-    //   });
-    //   `,
-    // },
+    {
+      tagName: "link",
+      attributes: {
+        rel: "stylesheet",
+        href: "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css",
+      },
+    },
+    {
+      tagName: "script",
+      attributes: {
+        type: "text/javascript",
+      },
+      innerHTML: `
+      algoliasearchNetlify({
+        appId: '95JXYNK74Y',
+        apiKey: '8122f86c4cacdf2f2ba27842ac2744f5',
+        siteId: 'a17ea549-8c0e-4599-8512-c102af1256b8',
+        branch: 'main',
+        selector: 'div#search',
+      });
+      `,
+    },
   ],
   stylesheets: [
     // String format.
@@ -69,10 +69,10 @@ const config = {
     // String format.
     // 'https://docusaurus.io/script.js',
     // Object format.
-    // {
-    //   type: "text/javascript",
-    //   src: "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js",
-    // },
+    {
+      type: "text/javascript",
+      src: "https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js",
+    },
     // {
     // type: "text/javascript",
     // innerHTML: `algoliasearchNetlify({

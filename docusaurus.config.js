@@ -13,7 +13,7 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://benevolent-daifuku-6e20f1.netlify.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -30,8 +30,10 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    // defaultLocale: "en",
+    // locales: ["en"],
+    defaultLocale: "ko",
+    locales: ["ko"],
   },
   headTags: [
     {
@@ -67,7 +69,7 @@ const config = {
   ],
   scripts: [
     // String format.
-    // 'https://docusaurus.io/script.js',
+    // "https://docusaurus.io/script.js",
     // Object format.
     {
       type: "text/javascript",
